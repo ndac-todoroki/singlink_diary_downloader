@@ -1,0 +1,24 @@
+{
+  "name": "singlink-downloader",
+  "version": "0.1.0",
+  "description": "A little artoo.js bookmarklet to scrape and download the first three pages of the famous Hacker News.",
+  "main": "index.js",
+  "author": "Todoroki",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^6.0.5",
+    "gulp-artoo": "^0.1.0",
+    "gulp-clipboard": "^0.1.3",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1",
+    "jszip": "^3.1.5",
+    "showdown": "^1.9.0",
+    "sanitize-filename": "1.6.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "vinyl-source-stream": "*",
+    "browserify": "*",
+    "browsernizr": "*"
+  }
+}

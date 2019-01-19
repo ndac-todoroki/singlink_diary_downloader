@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Singlink Diary Downloader",
+  "description": "自分の日記を引き出そう",
+  "version": "0.0.3",
+  "author": "Todoroki",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "森林日記ダウンローダ"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
